@@ -3,7 +3,7 @@ import emojji from "../assets/animations/love-emojji.json";
 import Lottie from "react-lottie";
 import { Link } from "react-router-dom";
 
-export default function Home() {
+export default function Third() {
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="min-h-[40vh] shadow rounded p-8">
       <p className="text-xl md:text-3xl font-semibold text-center">
-        Do you believe in love at first sight?
+        Do you believe in the concept of unconditional love?
       </p>
       <Lottie options={defaultOptions} height={200} width={200} />
       <div className="flex justify-center gap-5">
@@ -26,7 +26,7 @@ export default function Home() {
           No
         </Link>
         <Link
-          to={"/second"}
+          to={"/fourth"}
           className="px-6 py-2 bg-blue-600 text-white border-0 shadow rounded no-underline"
         >
           Yes
